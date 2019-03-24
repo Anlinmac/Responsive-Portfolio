@@ -32,6 +32,7 @@ h1{
     
 }
 
+
 .bio{
     padding: 20px 0 0 0;
 }
@@ -76,6 +77,7 @@ h2{
     padding: 20px 20px 20px 40px;
     margin-bottom: 0;
     color: #4aaaa5;
+    font-size: 24px;
 }
 .border-area{
     border-top: 1px solid #cccccc ;
@@ -206,6 +208,9 @@ footer {
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px){
+    header{
+        border-bottom: 1px solid #cccccc;
+    }
     h1{
         margin: 0 0 0 20px;
     }
