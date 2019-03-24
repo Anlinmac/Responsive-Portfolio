@@ -172,66 +172,7 @@ footer {
    flex-shrink: 0;
    
 }
-/* Small screen */
-@media screen and (max-width: 640px){
-    h1{
-        width: 640px;
-        margin-left: 0;
 
-    }
-    nav ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	nav li {
-		display: inline;
-	}
-    nav a {
-		display: inline-block;
-		padding: 0;
-		text-decoration: none;
-	}
-    ul li{
-        background: white;
-        text-align: center;
-        
-    } 
-
-     .main-section {
-         width: 640px;
-         margin: 30px auto;
-         background: white;
-         margin-bottom: 100px;
-         flex: 1 0 auto;  
-     }
-     
-     
- }
- 
-
-/* Medium size screen */
-@media screen and (max-width: 768px){
-
-    h1{
-        margin: 0 0 0 20px;
-        background:#4aaaa5; 
-    }
-    ul{
-        margin: 0 0px 0 0;    
-    }
-
-    .main-section {
-        width: 750px;
-        margin: 30px auto;
-        background: white;
-        margin-bottom: 100px;
-    }
-    
-}
-
-
-/* Large size screen */
 @media screen and (max-width: 980px){
     h1{
         margin: 0 0 0 30px;  
@@ -242,7 +183,7 @@ footer {
     }
 
     .main-section {
-        width: 425px;
+        width: 600px;
         margin: 30px;
         background: white;
         margin-bottom: 100px;
@@ -250,5 +191,74 @@ footer {
        
     }
 }
+
+@media screen and (min-width: 641px) and (max-width: 768px){
+    h1{
+        margin: 0 0 0 20px;
+    }
+
+    ul{
+        margin: 0 0px 0 0;    
+    }
+    
+    .main-section {
+        width: 750px;
+        margin: 30px auto;
+        background: white;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 450px) and (max-width: 640px){
+    header{
+        background: white;
+        border-bottom: 1px solid #cccccc;
+    }
+    
+    h1{
+        width: 640px;
+        margin-left: 0;
+        
+    }
+   
+    nav ul {
+		margin: 0 156px;
+        padding: 0;
+        
+	}
+
+	nav li {
+        display: inline;
+        background: green;
+         
+	}
+    nav a {
+		display: inline-block;
+		padding: 0;
+		text-decoration: none;
+	}
+    ul li{
+        background: white;
+        text-align: center;
+       
+       
+    } 
+
+     .main-section {
+         width: 600px;
+         margin: 30px auto;
+         background: white;
+         margin-bottom: 100px;
+         flex: 1 0 auto;  
+     }
+
+     .profile-pic{
+        width: 100%;
+     }
+ }
+ 
+
+
 
 
