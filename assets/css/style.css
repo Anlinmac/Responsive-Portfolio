@@ -32,6 +32,10 @@ h1{
     
 }
 
+.bio{
+    padding: 20px 0 0 0;
+}
+
 ul{
     margin: 0 140px 0 0;
     
@@ -91,9 +95,6 @@ h2{
     padding: 0 20px 0 0;
 }
 
-.bio{
-    /* margin-left: 15px; */
-}
 
 /* Contact area */
 
@@ -153,6 +154,7 @@ textarea{
     width: 300px;
     text-align: center;
     bottom: 30px;
+    padding: 10px 0;
     
 }
 
@@ -177,6 +179,9 @@ footer {
     h1{
         margin: 0 0 0 30px;  
     }
+    h2{
+        font-size: 24px;
+    }
 
     ul{
         margin: 0 40px 0 0;  
@@ -186,9 +191,17 @@ footer {
         width: 600px;
         margin: 30px;
         background: white;
-        margin-bottom: 100px;
-        
-       
+        margin-bottom: 100px;   
+    }
+    .img-size{
+        width: 250px;
+    }
+    
+    .text-block{
+        width: 94.2%;
+    }
+    .img-container{
+        margin-left: 30px;
     }
 }
 
@@ -202,11 +215,28 @@ footer {
     }
     
     .main-section {
-        width: 750px;
+        width: 730px;
         margin: 30px auto;
         background: white;
         margin-bottom: 100px;
     }
+    h2{
+        font-size: 24px;
+    }
+    .images{
+        margin: 20px 0px 0px;
+    }
+    .img-size{
+        width: 300px;
+    }
+    .text-block{
+        width: 95.5%;
+    }
+    .img-container{
+        margin-left: 30px;
+    }
+    
+   
     
 }
 
@@ -240,9 +270,7 @@ footer {
 	}
     ul li{
         background: white;
-        text-align: center;
-       
-       
+        text-align: center;  
     } 
 
      .main-section {
@@ -255,6 +283,18 @@ footer {
 
      .profile-pic{
         width: 100%;
+     }
+
+     h2{
+         font-size: 26px;
+     }
+    
+     .img-size{
+         width: 100%;
+     }
+
+     .text-block{
+         width: 100%;
      }
  }
  
