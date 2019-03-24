@@ -11,6 +11,7 @@ body{
 }
 header{
     margin: 0;
+    position: static;
 }
 
 nav{
@@ -58,7 +59,6 @@ li a:hover{
     color: #777777;
 }
 
-
 .main-section{
     width: 960px;
     margin: 30px auto;
@@ -84,14 +84,15 @@ h2{
     margin-top: 15px;
 }
 .profile-pic{
-    width: 100%;
+    width: 20%;
     height: auto;
     float: left;
-    padding: 15px;
+    margin: 20px 0;
+    padding: 0 20px 0 0;
 }
 
 .bio{
-    padding: 0 15px 20px;
+    /* margin-left: 15px; */
 }
 
 /* Contact area */
@@ -171,12 +172,76 @@ footer {
    flex-shrink: 0;
    
 }
+/* Small screen */
+@media screen and (max-width: 640px){
+    h1{
+        width: 640px;
+        margin-left: 0;
 
-/* Large size screen */
-@media only screen  and (max-width: 980px){
+    }
+    nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li {
+		display: inline;
+	}
+    nav a {
+		display: inline-block;
+		padding: 0;
+		text-decoration: none;
+	}
+    ul li{
+        background: white;
+        text-align: center;
+        
+    } 
+
+     .main-section {
+         width: 640px;
+         margin: 30px auto;
+         background: white;
+         margin-bottom: 100px;
+         flex: 1 0 auto;  
+     }
+     
+     
+ }
  
 
-    .main-section{
+/* Medium size screen */
+@media screen and (max-width: 768px){
+
+    h1{
+        margin: 0 0 0 20px;
+        background:#4aaaa5; 
+    }
+    ul{
+        margin: 0 0px 0 0;    
+    }
+
+    .main-section {
+        width: 750px;
+        margin: 30px auto;
+        background: white;
+        margin-bottom: 100px;
+    }
+    
+}
+
+
+/* Large size screen */
+@media screen and (max-width: 980px){
+    h1{
+        margin: 0 0 0 30px;  
+    }
+
+    ul{
+        margin: 0 40px 0 0;  
+    }
+
+    .main-section {
         width: 425px;
         margin: 30px;
         background: white;
@@ -186,34 +251,4 @@ footer {
     }
 }
 
-/* Medium size screen */
-@media only screen and (max-width: 768px){
-  
-    .main-section{
-        width: 725px;
-        margin: 30px auto;
-        background: white;
-        margin-bottom: 100px;
-       
-    }
-}
-
-/* Small screen */
-@media only screen  and (max-width: 640px){
- 
-     .main-section{
-         width: 640px;
-         margin: 30px auto;
-         background: white;
-         margin-bottom: 100px;
-         flex: 1 0 auto;  
-     }
-     .profile-pic{
-         width: 640px;
-         height: auto; 
-       
-     } 
-     
- }
- 
 
