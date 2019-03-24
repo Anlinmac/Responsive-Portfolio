@@ -143,21 +143,19 @@ textarea{
     display: inline-block;
 }
 
-@keyframes myanimation{
-    0% {background: #4aaaa5 ;}
-    25%{background: lightgray}
-    50%{background: rgb(141, 133, 214)}
-    75%{background: rgb(179, 100, 152)}
-    100% {background:#4aaaa5;}
-}
-
 .img-size{
     width: 350px;
     height: auto;
     /* padding: 0px 15px 15px 0px; */
-    animation-name: myanimation;
-    animation-duration: 1s;
-    
+  
+}
+
+@keyframes myanimation{
+    0% {background: #4aaaa5 ;}
+    25%{background: rgb(241, 83, 83)}
+    50%{background: rgb(141, 133, 214)}
+    75%{background: rgb(179, 100, 152)}
+    100% {background:#4aaaa5;}
 }
 
 .text-block{
@@ -169,7 +167,8 @@ textarea{
     bottom: 10px;
     padding: 10px 0;
     animation-name: myanimation;
-    animation-duration: 5s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
     
 }
 
