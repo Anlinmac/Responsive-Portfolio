@@ -12,24 +12,36 @@ body{
 header{
     margin: 0;
     position: static;
+    background: white;
+    border-bottom: 1px solid #cccccc;
 }
 
 nav{
-	width: 100%;
+	width: 960px;
 	height: 80px;
-	background: white;
+    background: white;
+    margin: 0 auto;
 }
+/* .myname{
+    width: 960px;
+    margin: 0 auto;
+} */
+
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
-	line-height: 80px;
+	line-height: 90px;
 	width: 160px;
 	float: left;
-	margin: 0 0 0 160px;
 	color: white;
 	font-size: 34px;
 	text-align: center;
     background: #4aaaa5
     
+}
+.list{
+    width: 960px;
+    margin: 0 auto;
+
 }
 
 
@@ -37,9 +49,9 @@ h1{
     padding: 20px 0 0 0;
 }
 
-ul{
+/* ul{
     margin: 0 145px 0 0;  
-}
+} */
 
 ul li{
 	list-style: none;
@@ -96,7 +108,7 @@ h2{
     height: auto;
     float: left;
     margin: 20px 0;
-    padding: 0 20px 0 0;
+    padding-right: 20px;
 }
 
 
@@ -225,13 +237,16 @@ footer {
         border-bottom: 1px solid #cccccc;
     }
     h1{
-        margin: 0 0 0 20px;
+        margin: 0 0 0 21px;
     }
 
     ul{
         margin-right: 10px;   
-    }
+    } 
     
+    nav{
+        width: 100%;
+    }
     .main-section {
         width: 730px;
         margin: 30px auto;
@@ -269,18 +284,18 @@ footer {
         margin-left: 0;
         
     }
-   
+   nav{
+       margin: 0 auto;
+   }
+
     nav ul {
-		margin: 0 178px;
+        width: 48%;
         padding: 0;
-        
 	}
 
-	nav li {
+	/* nav li {
         display: inline;
-        background: green;
-         
-	}
+	} */
     nav a {
 		display: inline-block;
 		padding: 0;
@@ -289,7 +304,8 @@ footer {
     
     ul li{
         background: white;
-        text-align: center;  
+        text-align: center;
+        /* margin: 0 20px;   */
     } 
 
      .main-section {
@@ -302,6 +318,7 @@ footer {
 
      .profile-pic{
         width: 100%;
+        padding: 0;
      }
 
      h2{
