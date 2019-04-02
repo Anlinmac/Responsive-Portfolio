@@ -214,7 +214,7 @@ footer {
     }
     .img-size{
         width: 250px;
-        height: auto;
+        height: 190px;
     }
     
     .text-block{
@@ -254,6 +254,7 @@ footer {
     }
     .img-size{
         width: 300px;
+        height: 220px;
     }
     .text-block{
         width: 100%;
