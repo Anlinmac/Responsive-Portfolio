@@ -150,7 +150,7 @@ textarea{
 
 .img-size{
     width: 350px;
-    height: auto;
+    height: 250px;
   
 }
 
@@ -319,6 +319,7 @@ footer {
     
      .img-size{
          width: 100%;
+         height: auto;
      }
 
      .text-block{
